@@ -1,0 +1,126 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0f6vk1l",
+  "components": [
+    {
+      "label": "Customer Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0kuchoi",
+        "columns": null
+      },
+      "id": "Field_0u7ko4p",
+      "key": "CustomerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Vehicle Information",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0bq5lqa",
+        "columns": null
+      },
+      "id": "Field_16n13j0",
+      "key": "VehicleInformation",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Original Issues",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0blwo6v",
+        "columns": null
+      },
+      "id": "Field_1nmhfny",
+      "key": "OriginalIssues",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Follow-up Repairs Conducted",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0dwsp52",
+        "columns": null
+      },
+      "id": "Field_0did73t",
+      "key": "FollowupRepairsConducted",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Parts Used",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0dk05xc",
+        "columns": null
+      },
+      "id": "Field_0l70sxy",
+      "key": "partsused",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Mechanic's Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_046ao9f",
+        "columns": null
+      },
+      "id": "Field_1mmf0bm",
+      "key": "mechanicsName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Repair Completion Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0stp9mh",
+        "columns": null
+      },
+      "id": "Field_1089qa0",
+      "key": "repaircompletionDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Issue Resolved?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1jmzz3m",
+        "columns": null
+      },
+      "id": "Field_10xe96q",
+      "key": "issueResolved"
+    },
+    {
+      "label": "Additional Notes",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1jmzz3m",
+        "columns": null
+      },
+      "id": "Field_1jgtqk6",
+      "key": "textarea_gsdbtd"
+    }
+  ],
+  "type": "default"
+}

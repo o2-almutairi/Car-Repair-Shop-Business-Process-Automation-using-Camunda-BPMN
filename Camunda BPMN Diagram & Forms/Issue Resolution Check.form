@@ -1,0 +1,36 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0ez1twe",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "No",
+          "value": "Yes"
+        },
+        {
+          "label": "Yes",
+          "value": "value2"
+        }
+      ],
+      "label": "Issue Resolved?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0g0dcmh",
+        "columns": null
+      },
+      "id": "Field_0yhxt8u",
+      "key": "issueResolved",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,9 @@
+# https://docs.camunda.io/docs/apis-tools/spring-zeebe-sdk/getting-started/
+# https://docs.camunda.io/docs/apis-tools/spring-zeebe-sdk/configuration/
+
+zeebe.client:
+  cloud:
+    region: jfk-1
+    clusterId: c31853d1-8836-462a-aa3a-567d91462308
+    clientId: KLBu74Op6-OLEGfs536uG8ilrtuS81ja
+    clientSecret: v.8shfMJrMUV-rELBVqu6T~PfDnDZLqdesnkIUQvyp3TTxxLfrXOc4b6k49umsFA

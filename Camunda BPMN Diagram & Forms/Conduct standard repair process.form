@@ -1,0 +1,142 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_1wd9eg0",
+  "components": [
+    {
+      "label": "Customer Name ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_065a71n",
+        "columns": null
+      },
+      "id": "Field_18p21vg",
+      "key": "customerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Number",
+      "type": "number",
+      "layout": {
+        "row": "Row_0cfsplq",
+        "columns": null
+      },
+      "id": "Field_1k5hyhb",
+      "key": "carNumber"
+    },
+    {
+      "label": "Vehicle Information",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0cfsplq",
+        "columns": null
+      },
+      "id": "Field_1ybvx1s",
+      "key": "vehicleInfo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Description of Repairs",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_075018n",
+        "columns": null
+      },
+      "id": "Field_1vwdhyy",
+      "key": "repairDescription",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Parts Used",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_006ug7x",
+        "columns": null
+      },
+      "id": "Field_1lr07vy",
+      "key": "partsUsed",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Mechanic's Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1l3o9wx",
+        "columns": null
+      },
+      "id": "Field_030z6vg",
+      "key": "mechanicName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Estimated Repair Time",
+      "type": "number",
+      "layout": {
+        "row": "Row_0m0iwbs",
+        "columns": null
+      },
+      "id": "Field_0k3q2gb",
+      "key": "estimatedTime",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Actual Repair Time",
+      "type": "number",
+      "layout": {
+        "row": "Row_158x495",
+        "columns": null
+      },
+      "id": "Field_1ssa5ry",
+      "key": "actualrepairTime",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Additional Notes",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_106po0w",
+        "columns": null
+      },
+      "id": "Field_0a3lmpl",
+      "key": "notes",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Repair Completion Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_106po0w",
+        "columns": null
+      },
+      "id": "Field_07kgdf6",
+      "key": "repaircompletiondate",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

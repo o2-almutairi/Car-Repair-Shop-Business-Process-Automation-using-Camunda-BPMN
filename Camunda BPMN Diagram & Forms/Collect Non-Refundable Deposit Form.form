@@ -1,0 +1,64 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0glng73",
+  "components": [
+    {
+      "label": "Name on Card",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0z0zkcx",
+        "columns": null
+      },
+      "id": "Field_0kjsgr0",
+      "key": "NameOnCard",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Card Number",
+      "type": "number",
+      "layout": {
+        "row": "Row_0emnd7f",
+        "columns": null
+      },
+      "id": "Field_1emov0x",
+      "key": "cardNum",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Expiry Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1al9hah",
+        "columns": null
+      },
+      "id": "Field_1o4so07",
+      "key": "expiryDate"
+    },
+    {
+      "label": "CVV",
+      "type": "number",
+      "layout": {
+        "row": "Row_1oe1g0r",
+        "columns": null
+      },
+      "id": "Field_09f2u2n",
+      "key": "cvv",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

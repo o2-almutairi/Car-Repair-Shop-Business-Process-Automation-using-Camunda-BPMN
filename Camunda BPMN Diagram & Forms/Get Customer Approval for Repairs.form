@@ -1,0 +1,23 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_1okoo3u",
+  "components": [
+    {
+      "label": "Repair Approved",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0trow2v",
+        "columns": null
+      },
+      "id": "Field_1bgjzo3",
+      "key": "isCustomerApprovedRepair"
+    }
+  ],
+  "type": "default"
+}

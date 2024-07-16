@@ -1,0 +1,46 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_072k8id",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Would you like to join our membership programme for potential discounts and a free MOT every year, priced at £50 per year?\"",
+      "type": "select",
+      "layout": {
+        "row": "Row_0zfxhf3",
+        "columns": null
+      },
+      "id": "Field_12sj1c6",
+      "key": "joinMembership",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Customer aggree?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_08bi6k0",
+        "columns": null
+      },
+      "id": "Field_1qgx6wi",
+      "key": "agreeRegisterMembership"
+    }
+  ],
+  "type": "default"
+}

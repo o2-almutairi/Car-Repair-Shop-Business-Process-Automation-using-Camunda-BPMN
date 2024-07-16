@@ -1,0 +1,56 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_12so362",
+  "components": [
+    {
+      "label": "Customer Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0hsrzpg",
+        "columns": null
+      },
+      "id": "Field_14tp5vs",
+      "key": "customerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Warranty Start Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_10125ou",
+        "columns": null
+      },
+      "id": "Field_0lvqk7v",
+      "key": "warrentyStartDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Warranty End Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1yym75z",
+        "columns": null
+      },
+      "id": "Field_1x0m8bs",
+      "key": "warrentyEndDate",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

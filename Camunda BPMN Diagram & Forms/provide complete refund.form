@@ -1,0 +1,131 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_1opnjcn",
+  "components": [
+    {
+      "label": "Customer Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1s1keaa",
+        "columns": null
+      },
+      "id": "Field_1yxwvqz",
+      "key": "CustomerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Vehicle Information",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_112ggb8",
+        "columns": null
+      },
+      "id": "Field_1hddp8p",
+      "key": "VehicleInfo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Repair Incomplete",
+          "value": "Repair Incomplete"
+        },
+        {
+          "label": "Unsatisfactory Repair Quality",
+          "value": "Unsatisfactory Repair Quality"
+        },
+        {
+          "label": "Other",
+          "value": "Other"
+        }
+      ],
+      "label": "Reason for Refund",
+      "type": "select",
+      "layout": {
+        "row": "Row_0c2i39r",
+        "columns": null
+      },
+      "id": "Field_10ua549",
+      "key": "ReasonforRefund",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Amount to be Refunded",
+      "type": "number",
+      "layout": {
+        "row": "Row_07ua9az",
+        "columns": null
+      },
+      "id": "Field_1maoy5k",
+      "key": "AmounttobeRefunded",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Approved",
+          "value": "Approved"
+        },
+        {
+          "label": "Pending",
+          "value": "Pending"
+        },
+        {
+          "label": "Denied",
+          "value": "Denied"
+        }
+      ],
+      "label": "Approval Status",
+      "type": "select",
+      "layout": {
+        "row": "Row_1jvk633",
+        "columns": null
+      },
+      "id": "Field_1ahgto9",
+      "key": "approvalStatus",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Refund Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1okntds",
+        "columns": null
+      },
+      "id": "Field_17q4dnp",
+      "key": "refundDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Additional Comments",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0lws2cu",
+        "columns": null
+      },
+      "id": "Field_1dlr7zs",
+      "key": "comments"
+    }
+  ],
+  "type": "default"
+}

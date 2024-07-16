@@ -1,0 +1,132 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0zphf6o",
+  "components": [
+    {
+      "label": "Customer Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1p8ckss",
+        "columns": null
+      },
+      "id": "Field_017lz27",
+      "key": "customerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Vehicle Information",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_12kfr26",
+        "columns": null
+      },
+      "id": "Field_0ce5cwp",
+      "key": "vehicleInfo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Diagnostic Tests Conducted",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_101rwir",
+        "columns": null
+      },
+      "id": "Field_17f06tk",
+      "key": "dignosticTests",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Issues Identified",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1uq3sdy",
+        "columns": null
+      },
+      "id": "Field_0l1a9gl",
+      "key": "IssuesIdentified",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Preliminary Recommendations",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0oz58sf",
+        "columns": null
+      },
+      "id": "Field_1b6zrw4",
+      "key": "recommendations",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Mechanic's Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1wau64k",
+        "columns": null
+      },
+      "id": "Field_0bbmpxa",
+      "key": "mechanicName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Estimated Repair Time",
+      "type": "number",
+      "layout": {
+        "row": "Row_1p8flqy",
+        "columns": null
+      },
+      "id": "Field_1v1bpj1",
+      "key": "estimatedRepairTime",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Diagnostic Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1p8flqy",
+        "columns": null
+      },
+      "id": "Field_1ep2u0t",
+      "key": "dignosticDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Additional Notes",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0wad9gx",
+        "columns": null
+      },
+      "id": "Field_02rek22",
+      "key": "AdditionalNotes",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

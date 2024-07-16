@@ -1,0 +1,41 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0sh0rd7",
+  "components": [
+    {
+      "label": "Customer Contact Information",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0165vs4",
+        "columns": null
+      },
+      "id": "Field_0naa919",
+      "key": "customerContactInfo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Repair Completion Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_15z0pn9",
+        "columns": null
+      },
+      "id": "Field_07x59c4",
+      "key": "repairCompleteDate",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

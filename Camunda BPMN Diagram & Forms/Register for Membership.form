@@ -1,0 +1,118 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_1ra91f4",
+  "components": [
+    {
+      "label": "Full Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_04ihlt7",
+        "columns": null
+      },
+      "id": "Field_1qbdmgc",
+      "key": "name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Contact Number",
+      "type": "number",
+      "layout": {
+        "row": "Row_0wgwhi5",
+        "columns": null
+      },
+      "id": "Field_0650uv8",
+      "key": "contactNum",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Date of Birth",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_12qad0p",
+        "columns": null
+      },
+      "id": "Field_0wssdjv",
+      "key": "DOB"
+    },
+    {
+      "label": "Email Address",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0dbug53",
+        "columns": null
+      },
+      "id": "Field_1s67nfb",
+      "key": "email",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Home Address",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_15z9yu2",
+        "columns": null
+      },
+      "id": "Field_19y8r0o",
+      "key": "address",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Enter your Card Number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0jzqvmh",
+        "columns": null
+      },
+      "id": "Field_0ur405w",
+      "key": "cardNum",
+      "validate": {
+        "minLength": 16,
+        "maxLength": 16,
+        "required": true
+      }
+    },
+    {
+      "label": "Card Expiry",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0jzqvmh",
+        "columns": null
+      },
+      "id": "Field_0pq3bh1",
+      "key": "cardExpiry",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "CVV",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0jzqvmh",
+        "columns": null
+      },
+      "id": "Field_0kohkzx",
+      "key": "CVV",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

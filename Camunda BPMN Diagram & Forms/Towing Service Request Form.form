@@ -1,0 +1,52 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_12emr4y",
+  "components": [
+    {
+      "label": "Breakdown Location",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_04a5w8y",
+        "columns": null
+      },
+      "id": "Field_123t0ad",
+      "key": "location",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Vehicle Make and Model",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1tq4yss",
+        "columns": null
+      },
+      "id": "Field_1vhfnxz",
+      "key": "vehicleMakeandModel",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Customer Contact Information",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0wq2p42",
+        "columns": null
+      },
+      "id": "Field_16hgx8g",
+      "key": "contactInfo",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

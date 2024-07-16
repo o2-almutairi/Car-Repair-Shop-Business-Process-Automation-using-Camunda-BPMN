@@ -1,0 +1,52 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0zjlmht",
+  "components": [
+    {
+      "label": "Customer Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ktjie2",
+        "columns": null
+      },
+      "id": "Field_07b5y5y",
+      "key": "customerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Preferred Pickup Date and Time",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0wj1hr3",
+        "columns": null
+      },
+      "id": "Field_01w1mt0",
+      "key": "pickupDateandTime",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Time",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0vkugn1",
+        "columns": null
+      },
+      "id": "Field_1mxjjao",
+      "key": "time",
+      "description": " please enter the desired time"
+    }
+  ],
+  "type": "default"
+}

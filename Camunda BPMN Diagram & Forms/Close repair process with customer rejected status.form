@@ -1,0 +1,112 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_0uoc9w6",
+  "components": [
+    {
+      "label": "Customer Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1mz1r4u",
+        "columns": null
+      },
+      "id": "Field_0gkd7r6",
+      "key": "customerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Vehicle Information",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14cfacy",
+        "columns": null
+      },
+      "id": "Field_125iztq",
+      "key": "vehicleInfo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Repair Incomplete",
+          "value": "Repair Incomplete"
+        },
+        {
+          "label": "Unsatisfactory Repair Quality",
+          "value": "Unsatisfactory Repair Quality"
+        },
+        {
+          "label": "High Cost",
+          "value": "High Cost"
+        },
+        {
+          "label": "Other",
+          "value": "Other"
+        }
+      ],
+      "label": "Reason for Rejection",
+      "type": "select",
+      "layout": {
+        "row": "Row_0c2qsij",
+        "columns": null
+      },
+      "id": "Field_0hvzg80",
+      "key": "rejectionReason",
+      "description": "Choose the below",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Additional Comments",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0e9w0d1",
+        "columns": null
+      },
+      "id": "Field_1t11im6",
+      "key": "comments",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Customer Contact Info",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_00kjdft",
+        "columns": null
+      },
+      "id": "Field_1fkpbdw",
+      "key": "textarea_z3aexc",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Closure Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_00kjdft",
+        "columns": null
+      },
+      "id": "Field_1s78gk3",
+      "key": "datetime_x98dbi",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

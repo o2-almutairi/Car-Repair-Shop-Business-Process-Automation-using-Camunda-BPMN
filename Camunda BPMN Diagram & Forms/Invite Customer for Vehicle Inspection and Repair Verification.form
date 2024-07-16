@@ -1,0 +1,51 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_13mj8jk",
+  "components": [
+    {
+      "label": "Customer Name ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0uyw5vz",
+        "columns": null
+      },
+      "id": "Field_1uhsnvw",
+      "key": "customerName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Inspection Date and Time",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0dfoslc",
+        "columns": null
+      },
+      "id": "Field_1shxd4i",
+      "key": "inspectionDateTime",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Customer Satisfied",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_055k93h",
+        "columns": null
+      },
+      "id": "Field_1poj5pz",
+      "key": "customerSatisfied"
+    }
+  ],
+  "type": "default"
+}

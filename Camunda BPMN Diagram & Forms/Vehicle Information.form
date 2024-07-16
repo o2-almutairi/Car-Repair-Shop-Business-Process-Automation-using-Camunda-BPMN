@@ -1,0 +1,92 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2152425"
+  },
+  "schemaVersion": 16,
+  "id": "Form_07dutc3",
+  "components": [
+    {
+      "label": "Customer Id",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1y1er5m",
+        "columns": null
+      },
+      "id": "Field_000sy5b",
+      "key": "customerId"
+    },
+    {
+      "label": "Vehicle Make and Model",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1t449fl",
+        "columns": null
+      },
+      "id": "Field_1645lkc",
+      "key": "vehicleModel",
+      "description": "Please enter your vehicle information",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Vehicle Registration Number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0r8ssv9",
+        "columns": null
+      },
+      "id": "Field_0clkxwp",
+      "key": "vehicleRegNum",
+      "validate": {
+        "required": true
+      },
+      "description": "Please enter your vehicle Reg #"
+    },
+    {
+      "label": "Vehicle Problem Description",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1kol6ih",
+        "columns": null
+      },
+      "id": "Field_11tov2h",
+      "key": "vehivleProbDesc",
+      "description": "Please tell us your vehicle issue",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Broken Request",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0h69a16",
+        "columns": null
+      },
+      "id": "Field_1401ax8",
+      "key": "brokenRequest",
+      "validate": {
+        "required": false
+      },
+      "description": "Check the box if you want Towing service and Towing service quotation"
+    },
+    {
+      "label": "Customer has membership?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_12aqeiz",
+        "columns": null
+      },
+      "id": "Field_0zwxec7",
+      "key": "customerHasMembership",
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "type": "default"
+}

@@ -1,0 +1,36 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "8059276"
+  },
+  "schemaVersion": 16,
+  "id": "Form_016lqis",
+  "components": [
+    {
+      "label": "Towing Service Cost Quotation",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0z9oh81",
+        "columns": null
+      },
+      "id": "Field_02541at",
+      "key": "towingQuote",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Send",
+      "type": "button",
+      "layout": {
+        "row": "Row_1vfvv00",
+        "columns": null
+      },
+      "id": "Field_08z94m1"
+    }
+  ],
+  "type": "default"
+}
