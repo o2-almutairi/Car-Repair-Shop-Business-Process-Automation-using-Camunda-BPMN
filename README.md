@@ -9,7 +9,7 @@ The project focuses on creating an integrated information system that automates 
 
 ## Key Features
 
-- **Integrated Customer Relationship Management (CRM) System:** Automates the collection and management of client data, ensuring accurate membership status checks and application of discounts.
+- **Integrated Camunda BPMN Forms:** Automates the collection and management of client data, ensuring accurate membership status checks and application of discounts.
 - **Automated Administrative Processes:** Utilizes Camunda BPMN Model to automate customer detail collection, quote generation, and transaction processing.
 - **Enhanced Communication Tools:** Improves collaboration between receptionists and mechanics, enabling real-time updates and approvals.
 - **Comprehensive Diagnostics and Repair Workflow:** Automates the diagnostics and repair process, ensuring mechanics have up-to-date customer and vehicle information.
